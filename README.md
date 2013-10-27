@@ -4,6 +4,12 @@ An naive, unoptimized, very literal implementation of the [Urbit project](http:/
 
 Because, why not?
 
+For the core implementation, see [here](https://github.com/swaldman/nnnook/blob/master/src/main/scala/com/mchange/sc/v1/nnnock/package.scala).
+
+For a quick program testing the examples given with the [spec](http://www.urbit.org/2013/08/22/Chapter-2-nock.html), see [here](https://github.com/swaldman/nnnook/blob/master/src/main/scala/com/mchange/sc/v1/nnnock/Check.scala).
+
+To run the test program, just download sbt and execute `sbt run` from the base directory of this repository.
+
 Lamely, there is no parser, but you can evaluate expressions as a kind of scala-internal DSL. Expressions like `[a b c d]` should be written as `Cell(a,b,c,d)`. Evaluate using the function `*( noun )`. For example:
 
 ```
@@ -21,9 +27,4 @@ res0: com.mchange.sc.v1.nnnock.Noun = Atom(41)
 
 ```
 
-For the core implementation, see [here](https://github.com/swaldman/nnnook/blob/master/src/main/scala/com/mchange/sc/v1/nnnock/package.scala).
-
-For a quick program testing the examples given with the [spec](http://www.urbit.org/2013/08/22/Chapter-2-nock.html), see [here](https://github.com/swaldman/nnnook/blob/master/src/main/scala/com/mchange/sc/v1/nnnock/Check.scala).
-
-To run the test program, just download sbt and execute `sbt run` from the base directory of this repository.
 
