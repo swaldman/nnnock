@@ -1,6 +1,6 @@
 #### nnnock #####
 
-An naive, unoptimized, very literal implementation of the [Urbit project](http://www.urbit.org)'s Nock VM in Scala. 
+A naive, unoptimized, very literal implementation of the [Urbit project](http://www.urbit.org)'s Nock VM in Scala. 
 
 Because, why not?
 
